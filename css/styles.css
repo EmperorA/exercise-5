@@ -1,23 +1,28 @@
 .container {
-    
-    margin-left: 4rem;
-    margin-top: 4rem;
-  }
-  .container div {
-    display: inline-block;
-    width: 70px;
-    height: 60px;
-    border: 1px solid black;
-  }
-  .container div:nth-child(even){
-      border-color: red;
-  }
-  .container div:nth-child(odd) span:nth-child(even){
-color: green;
-  }
-  .container div:nth-child(even) span:last-of-type{
-color: blue;
-  }
-  .container div:nth-child(6) span:not(:last-of-type){
-      color: yellow;
-  }
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+.container div {
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  border: 1px solid black;
+  position: relative;
+}
+.container div:nth-child(even) {
+  border-color: red;
+}
+.container div:nth-child(odd) span:nth-child(even) {
+  color: green;
+}
+.container div:nth-child(even) span:last-of-type {
+  color: blue;
+}
+.container div:nth-child(6) span:not(:last-of-type) {
+  color: yellow;
+}
+.container div span:first-of-type {
+  position: absolute;
+  right: 30px;
+  top: 60px;
+}
