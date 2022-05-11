@@ -26,3 +26,8 @@
   right: 30px;
   top: 60px;
 }
+.container div span:nth-child(2){
+    position: absolute;
+    bottom: 60px;
+    right: 30px;
+}
