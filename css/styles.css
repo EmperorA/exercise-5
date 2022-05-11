@@ -12,3 +12,6 @@
   .container div:nth-child(even){
       border-color: red;
   }
+  .container div:nth-child(odd) span:nth-child(even){
+color: green;
+  }
