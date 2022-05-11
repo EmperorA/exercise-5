@@ -18,3 +18,6 @@ color: green;
   .container div:nth-child(even) span:last-of-type{
 color: blue;
   }
+  .container div:nth-child(6) span:not(:last-of-type){
+      color: yellow;
+  }
