@@ -15,3 +15,6 @@
   .container div:nth-child(odd) span:nth-child(even){
 color: green;
   }
+  .container div:nth-child(even) span:last-of-type{
+color: blue;
+  }
