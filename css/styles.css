@@ -4,6 +4,7 @@
 }
 .container div {
   display: inline-block;
+  font-size: 1rem;
   width: 70px;
   height: 60px;
   border: 1px solid black;
@@ -40,4 +41,7 @@
   position: absolute;
   right: 80px;
   top: 20px;
+}
+.container{
+    font-size: 0;
 }
