@@ -31,3 +31,9 @@
     bottom: 60px;
     right: 30px;
 }
+.container div:last-of-type span:last-of-type{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
